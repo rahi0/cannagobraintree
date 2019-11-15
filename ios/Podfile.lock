@@ -1,0 +1,258 @@
+PODS:
+  - adhara_socket_io (0.0.1):
+    - Flutter
+    - Socket.IO-Client-Swift
+    - Starscream
+  - Braintree/Apple-Pay (4.30.0):
+    - Braintree/Core
+  - Braintree/Card (4.30.0):
+    - Braintree/Core
+  - Braintree/Core (4.30.0)
+  - Braintree/PaymentFlow (4.30.0):
+    - Braintree/Card
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPal (4.30.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.30.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.30.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.30.0)
+  - Braintree/UnionPay (4.30.0):
+    - Braintree/Card
+    - Braintree/Core
+  - braintree_payment (1.0.2):
+    - Braintree/Apple-Pay
+    - Braintree/PayPal
+    - BraintreeDropIn
+    - Flutter
+  - BraintreeDropIn (7.4.0):
+    - BraintreeDropIn/DropIn (= 7.4.0)
+  - BraintreeDropIn/DropIn (7.4.0):
+    - Braintree/Card (~> 4.27)
+    - Braintree/Core (~> 4.27)
+    - Braintree/PaymentFlow (~> 4.27)
+    - Braintree/PayPal (~> 4.27)
+    - Braintree/UnionPay (~> 4.27)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (7.4.0)
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - Firebase/Core (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.1.3)
+  - Firebase/CoreOnly (6.10.0):
+    - FirebaseCore (= 6.3.1)
+  - Firebase/Messaging (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.1.6)
+  - firebase_messaging (0.0.1):
+    - Firebase/Core
+    - Firebase/Messaging
+    - Flutter
+  - FirebaseAnalytics (6.1.3):
+    - FirebaseCore (~> 6.3)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleAppMeasurement (= 6.1.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3.901)
+  - FirebaseAnalyticsInterop (1.4.0)
+  - FirebaseCore (6.3.1):
+    - FirebaseCoreDiagnostics (~> 1.0)
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+  - FirebaseCoreDiagnostics (1.1.1):
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.0.0)
+  - FirebaseInstanceID (4.2.5):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMessaging (4.1.6):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - Flutter (1.0.0)
+  - geocoder (0.0.1):
+    - Flutter
+  - google_maps_flutter (0.0.1):
+    - Flutter
+    - GoogleMaps
+  - GoogleAppMeasurement (6.1.3):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3.901)
+  - GoogleDataTransport (3.0.1)
+  - GoogleDataTransportCCTSupport (1.2.1):
+    - GoogleDataTransport (~> 3.0)
+    - nanopb (~> 0.3.901)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GoogleUtilities/AppDelegateSwizzler (6.3.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.3.1)
+  - GoogleUtilities/Logger (6.3.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.3.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.3.1)"
+  - GoogleUtilities/Reachability (6.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.3.1):
+    - GoogleUtilities/Logger
+  - image_cropper (0.0.1):
+    - Flutter
+    - TOCropViewController (~> 2.5.1)
+  - image_picker (0.0.1):
+    - Flutter
+  - location (0.0.1):
+    - Flutter
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - path_provider (0.0.1):
+    - Flutter
+  - Protobuf (3.10.0)
+  - Reachability (3.2)
+  - shared_preferences (0.0.1):
+    - Flutter
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+  - TOCropViewController (2.5.1)
+
+DEPENDENCIES:
+  - adhara_socket_io (from `.symlinks/plugins/adhara_socket_io/ios`)
+  - braintree_payment (from `.symlinks/plugins/braintree_payment/ios`)
+  - connectivity (from `.symlinks/plugins/connectivity/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `.symlinks/flutter/ios-release`)
+  - geocoder (from `.symlinks/plugins/geocoder/ios`)
+  - google_maps_flutter (from `.symlinks/plugins/google_maps_flutter/ios`)
+  - image_cropper (from `.symlinks/plugins/image_cropper/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GoogleMaps
+  trunk:
+    - Braintree
+    - BraintreeDropIn
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleUtilities
+    - nanopb
+    - Protobuf
+    - Reachability
+    - Socket.IO-Client-Swift
+    - Starscream
+    - TOCropViewController
+
+EXTERNAL SOURCES:
+  adhara_socket_io:
+    :path: ".symlinks/plugins/adhara_socket_io/ios"
+  braintree_payment:
+    :path: ".symlinks/plugins/braintree_payment/ios"
+  connectivity:
+    :path: ".symlinks/plugins/connectivity/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios-release"
+  geocoder:
+    :path: ".symlinks/plugins/geocoder/ios"
+  google_maps_flutter:
+    :path: ".symlinks/plugins/google_maps_flutter/ios"
+  image_cropper:
+    :path: ".symlinks/plugins/image_cropper/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+
+SPEC CHECKSUMS:
+  adhara_socket_io: a2f8b3079a0de70a1a3f5080a8429a4fb7ae9bea
+  Braintree: 6c7b531ed255701cc69666a2f02d1324a2d95c41
+  braintree_payment: d4a57a529b39a42c9b07b8e2d762ca9202309630
+  BraintreeDropIn: ee413ce4f94b86179e5ff3f98eb847219610bb96
+  connectivity: 6e94255659cc86dcbef1d452ad3e0491bb1b3e75
+  Firebase: 5e6b7b12bf9adb90986688edc06b156c37e109cd
+  firebase_messaging: b25b2fa94e685146bcf9d706ed87b4e95cd2a17d
+  FirebaseAnalytics: 0e3ecff2c5d86070f7d4325e21f1edabfbd558dc
+  FirebaseAnalyticsInterop: d48b6ab67bcf016a05e55b71fc39c61c0cb6b7f3
+  FirebaseCore: 064c2dd92a8ca5974bbdcb080df9921e46bd34cd
+  FirebaseCoreDiagnostics: af29e43048607588c050889d19204f4d7b758c9f
+  FirebaseCoreDiagnosticsInterop: 6829da2b8d1fc795ff1bd99df751d3788035d2cb
+  FirebaseInstanceID: 550df9be1f99f751d8fcde3ac342a1e21a0e6c42
+  FirebaseMessaging: 35edef69a6af9b34e9e44624089f054be3c09089
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  geocoder: 3cfab70531a0b367e917bafe82df4c30f6d4c45a
+  google_maps_flutter: 924970f41ec509a201b593548db005efb2a09ee9
+  GoogleAppMeasurement: 434cc7be25e71dc04b8d0e3079125127b330e84a
+  GoogleDataTransport: 166f9b9f82cbf60a204e8fe2daa9db3e3ec1fb15
+  GoogleDataTransportCCTSupport: f6ab1962e9dc05ab1fb938b795e5b310209edeec
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GoogleUtilities: f895fde57977df4e0233edda0dbeac490e3703b6
+  image_cropper: 966bf742cd9cee8d78010ec5c67dd9e7826e6b19
+  image_picker: 16e5fec1fbc87fd3b297c53e4048521eaf17cd06
+  location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
+  Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  TOCropViewController: 00dc36c4e4a0f4a45efa91adbf22df8a4fae01d3
+
+PODFILE CHECKSUM: b8588c2ff85dc80fc8aea6bc60b6c067df5ad4bb
+
+COCOAPODS: 1.8.4
